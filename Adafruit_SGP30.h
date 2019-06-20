@@ -65,8 +65,14 @@ public:
   /** The 48-bit serial number, this value is set when you call {@link begin()}
    * **/
   uint16_t serialnumber[3];
+<<<<<<< Updated upstream
 
 private:
+=======
+  uint16_t featureset = 0;
+  
+ private:
+>>>>>>> Stashed changes
   TwoWire *_i2c;
   uint8_t _i2caddr;
 
